@@ -1,0 +1,86 @@
+{
+ "name": "IBM",
+ "children": [
+    {"name": "Monaco", "size": 100},
+    {"name": "Puerto Rico", "size": 100},
+    {"name": "Australia", "size": 100},
+    {
+      "name": "EU",
+      "children": [
+        {
+          "name": "IT", 
+          "children": [
+            {"name": "Rome", "size": 100},
+            {"name": "Venice", "size": 100},
+            {"name": "Milan", "size": 100}
+          ]
+        },
+        {"name": "ES", "size": 100},
+        {"name": "CH", "size": 100},
+        {
+          "name": "FR", 
+          "children": [
+            {"name": "Paris", "size": 100},
+            {"name": "Lyon", "size": 100}
+          ]
+        },
+        {
+          "name": "UK",
+          "children": [
+            {"name":"Northern Ireland","size":100},
+            {
+              "name":"GBR",
+              "children": [
+                {"name":"Edinburgh", "size": 100},
+                {
+                  "name":"England", 
+                  "children": [
+                    {"name": "London", "size": 100},
+                    {"name": "Oxford", "size": 100}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "children": [
+        {
+          "name": "CA", 
+          "children": [
+            {"name": "San Jose", "size": 100},
+            {"name": "San Francisco", "size": 100},
+            {"name": "Orange County", "size": 100},
+            {
+              "name": "Los Angeles", 
+              "children": [
+                {"name": "Address1", "size":50},
+                {"name": "Address2", "size":50},
+                {"name": "Address3", "size":50}
+              ]
+            }
+          ]
+        },
+        {"name": "Atlanta", "size": 100}
+      ]
+    },
+    {
+      "name": "DE",
+       "children": [
+          {"name": "Munich", "size": 100},
+          {"name": "Saxony", "size": 100},
+          {
+            "name": "Berlin", 
+            "children": [
+              {"name": "VendorSite1", "size": 50},
+              {"name": "VendorSite2", "size": 50},
+              {"name": "VendorSite3", "size": 50}
+            ]
+          }
+      ]
+     }
+ ]
+}
